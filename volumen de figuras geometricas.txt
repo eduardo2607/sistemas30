@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ 
+int a,seleccion,lado,area;
+float base,altura,areaT,radio,vesf,volCono,volCubo,arista;
+float pi = M_PI;
+void volumenEsfera();
+void volumenCono();
+void volumenCubo();
+ 
+ 
+int main() {
+		
+			printf("1 Volumen de una esfera\n");
+			printf("2 Volumen de un cono\n");
+			printf("3 Volumen de un cubo\n");
+			printf("Seleccion: ");
+			scanf("%d",&seleccion);
+ 
+			switch (seleccion) {
+				case 1:
+					volumenEsfera();
+				break;
+				case 2:
+					volumenCono();
+				break;
+				case 3:
+					volumenCubo();
+				break;
+			}
+		}
+ 
+ 
+	
+ 
+//volumen de una esfera
+void volumenEsfera() {
+	printf("Dame el radio de la esfera: ");
+	scanf("%f",&radio);
+ 
+	vesf = (4 * pi * pow(radio,3) / 3);
+	printf("El volumen de la esfera es: %.2f\n",vesf);
+}
+ 
+//volumen de un cono
+void volumenCono() {
+	printf("Dame la altura del cono: ");
+	scanf("%f",&altura);
+	printf("Dame el radio del cono: ");
+	scanf("%f",&radio);
+ 
+	volCono = (pi * pow(radio,2) * altura);
+	printf("El volumen del cono es: %.2f\n",volCono);
+}
+ 
+//volumen de un cubo
+void volumenCubo() {
+	printf("Dame la arista del cubo: ");
+	scanf("%f",&arista);
+ 
+	volCubo = pow(arista,3);
+	printf("El volumen del cubo es: %.2f\n",volCubo);
+}
