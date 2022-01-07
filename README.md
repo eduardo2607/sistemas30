@@ -8,6 +8,8 @@ Salvador Alejandro Carrillo Ramirez
 ## Caso Practico
 
 **Descripcion**
+
+
 **1**. En el formato de doble columna entrega lo encomendado cuidando los elementos de título, autores, resumen, abstract, desarrollo, manejo de datos, resultados, conclusiones, referencias. Máximo 3 integrantes por equipo. Diariamente de manera opcional subir sus aportes al github y otorgarle acceso (hacer miembro del equipo) al maestro a la cuenta sgonzalez@infraestructuragis.com donde a tráves de MarckDown debes documentar. Proponer el nombre del trabajo de acuerdo a los siguientes puntos solicitados.
  
 **2**. Que es La Programación de Sistemas o Procesos de Compilación?  Que pasa en nuestra región centro-occidente de México con respecto a la programación de sistemas, Cuantos lenguajes de programación se utilizan?. Quién hace qué, dónde, cómo (en cuanto la programación de sistemas?. Ejemplifique.
