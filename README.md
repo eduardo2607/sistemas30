@@ -1,8 +1,10 @@
 
 # Equipo 3
 
-Eduardo valentin Hernandez aguilar
-Said assam Zaragoza
+Eduardo valentin Hernandez Aguilar
+
+Said Assam Zaragoza
+
 Salvador Alejandro Carrillo Ramirez
 
 ## Caso Practico
